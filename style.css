@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  text-align: center;
+}
+
+.squares {
+  display: flex;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  background: gray;
+}
+
+.button {
+  display: block;
+  background-color: red;
+  color: #1D1D1D;
+  height: 30px;
+  width: 100px;
+  border: none;
+}
